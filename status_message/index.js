@@ -73,13 +73,13 @@ function clock(){
                 }
                 setTimeout(() => {
                     //elements[i].innerHTML = time
-                    if(document.getElementsByClassName("clock_date")[i].style.opacity === 0){
+                    if(document.getElementsByClassName("clock_date")[i].style.opacity === "0"){
                         document.getElementsByClassName("clock_date")[i].style.opacity = 1
                     }
-                    if(document.getElementsByClassName("clock_hour")[i].style.opacity === 0){
+                    if(document.getElementsByClassName("clock_hour")[i].style.opacity === "0"){
                         document.getElementsByClassName("clock_hour")[i].style.opacity = 1
                     }
-                    if(document.getElementsByClassName("clock_min")[i].style.opacity === 0){
+                    if(document.getElementsByClassName("clock_min")[i].style.opacity === "0"){
                         document.getElementsByClassName("clock_min")[i].style.opacity = 1
                     }
                 }, 1000)
