@@ -1,0 +1,22 @@
+{
+    "message_1" : {
+        "type" : "text",
+        "display" : true,
+        "text" : "初期値"
+    },
+    "message_2" : {
+        "type" : "live_1",
+        "display" : true,
+        "text" : "初期値"
+    },
+    "message_3" : {
+        "type" : "clock",
+        "display" : true,
+        "text" : "初期値"
+    },
+    "scroll" : {
+        "text" : "これは、テストメッセージです。現在誤りがないかの確認作業を行っています。",
+        "display" : true,
+        "speed" : 12
+    }
+}
